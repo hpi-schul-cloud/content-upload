@@ -1,25 +1,15 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <title>Content Upload - Schul-Cloud</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-  <style>
-    .input{
-      display: block;
-      width: 100%;
-      padding: .5rem .75rem;
-      font-size: 1rem;
-      line-height: 1.25;
-      color: #55595c;
-      background-color: #fff;
-      background-image: none;
-      background-clip: padding-box;
-      border: 1px solid rgba(0,0,0,.15);
-      border-radius: .25rem;
-    }
-  </style>
+    <title>Content Upload - Schul-Cloud</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
 </head>
 <body>
-
+    <form class="form">
+        <input type="text" class="input" placeholder="Titel" required>
+        <textarea class="textarea" placeholder="Beschreibung" required></textarea>
+        <input type="submit" class="submit" value="Abschicken">
+    </form>
 </body>
 </html>
